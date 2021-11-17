@@ -9,7 +9,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
-  font-family: 'Parisienne', cursive;
   position: relative;
 }
 
@@ -25,7 +24,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   width: 10%;
-  height: 120px;
+  height: 100px;
   position: absolute;
   right: 17.5%;
   top: 21%;
@@ -45,7 +44,7 @@ h1 {
 
 .brush-label {
   margin-top: 2rem;
-  font-size: 2rem;
+  font: 1.3rem 'Sora', sans-serif;
 }
 
 #brush-size {
@@ -69,6 +68,6 @@ p {
   margin: 1rem 0;
   display: inline-block;
   width: 70%;
-  font-size: 2.5vw;
+  font: 2.5vw 'Parisienne', cursive;
   color: #0B426A;
 }
