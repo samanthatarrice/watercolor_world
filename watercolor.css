@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  font-size: 10px;
+}
+
+body {
+  background-image: url("images/pink-waves.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+  position: relative;
+}
+
+h1 {
+  margin-top: 2rem;
+  font: 6vw 'Parisienne', cursive;
+  color: #0B426A;
+}
+
+.user-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+  height: 120px;
+  position: absolute;
+  right: 17.5%;
+  top: 21%;
+  
+}
+
+#color-picker {
+  width: 70px;
+  height: 35px;
+}
+
+.brush-info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brush-label {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+#brush-size {
+  width: 60px;
+  font-size: 2rem;
+  /* height: 2rem; */
+}
+
+.canvas {
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+  /* width: 70%; */
+  border-radius: 10px;
+  border: solid 15px rgba(255, 255, 255, 0.4);
+  background-clip: padding-box;
+    /*https://css-tricks.com/transparent-borders-with-background-clip/*/
+}
+
+p {
+  margin: 1rem 0;
+  display: inline-block;
+  width: 70%;
+  font-size: 2.5vw;
+  color: #0B426A;
+}
